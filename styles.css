@@ -109,6 +109,19 @@ main {
     transform: scale(1.05);
 }
 
+.calendar-img {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.calendar-img:hover {
+    transform: scale(1.05);
+}
+
 footer {
     background-color: #1B263B;
     text-align: center;
@@ -133,5 +146,9 @@ footer a:hover {
 
     .gallery-img {
         width: 90%;
+    }
+
+    .calendar-img {
+        width: 100%;
     }
 }

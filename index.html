@@ -4,62 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learn about meteors, the meteor calendar, and upcoming meteor showers. Stay updated on the best times to observe with info from the International Meteor Organization.">
-    <title>Meteor Showers and Calendar</title>
+    <title>Meteor Showers: Your Guide to the Night Sky</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Meteor Showers: The Ultimate Guide</h1>
-        <p>Stay updated on meteor activity and upcoming showers.</p>
+        <div class="header-content">
+            <h1>Meteor Showers Guide</h1>
+            <p>Discover the wonders of meteors and never miss a meteor shower again!</p>
+        </div>
     </header>
 
     <main>
-        <section id="intro">
+        <section id="intro" class="section">
             <h2>What Are Meteors?</h2>
-            <p>Meteors, commonly known as "shooting stars," are small fragments of comets or asteroids that burn up upon entering the Earth's atmosphere. Every year, there are several predictable meteor showers that light up the night sky.</p>
+            <p>Meteors are small fragments from comets or asteroids that light up the sky when they enter the Earth's atmosphere. They burn up due to friction, creating the beautiful streaks of light we often call "shooting stars."</p>
         </section>
 
-        <section id="calendar">
+        <section id="calendar" class="section">
             <h2>Meteor Shower Calendar</h2>
-            <p>Plan ahead for the best meteor showers of the year. The next major meteor shower is the <strong>Geminids</strong>, peaking on December 13-14. Below is a list of some popular upcoming showers:</p>
-            <ul>
-                <li><strong>Orionids:</strong> October 21-22</li>
-                <li><strong>Leonids:</strong> November 16-17</li>
-                <li><strong>Geminids:</strong> December 13-14</li>
-            </ul>
-            <p>For a complete calendar, visit the <a href="https://www.imo.net/calendar/">International Meteor Organization Calendar</a>.</p>
-        </section>
-
-        <section id="how-to">
-            <h2>How to Watch Meteor Showers</h2>
-            <p>Watching a meteor shower can be a magical experience. Here’s how you can optimize your viewing:</p>
-            <ul>
-                <li>Find a dark location away from city lights.</li>
-                <li>Lie down or use a reclining chair for a wide view of the sky.</li>
-                <li>Give your eyes 15-20 minutes to adjust to the dark.</li>
-                <li>Bring warm clothes, especially in colder months.</li>
-                <li>Check the weather forecast for clear skies.</li>
-            </ul>
-        </section>
-
-        <section id="data">
-            <h2>Get Meteor Data</h2>
-            <p>For up-to-date meteor shower data and reports from around the world, visit the <a href="https://www.imo.net/">International Meteor Organization</a>. They provide real-time information on meteor activity and help you track the best times to observe.</p>
-        </section>
-
-        <section id="gallery">
-            <h2>Meteor Shower Gallery</h2>
-            <p>Below are some images of meteors and meteor showers:</p>
-            <div class="gallery">
-                <img src="meteor1.jpg" alt="Meteor shower 1">
-                <img src="meteor2.jpg" alt="Meteor shower 2">
-                <img src="meteor3.jpg" alt="Meteor shower 3">
+            <p>Here are the upcoming meteor showers:</p>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Orionids</h3>
+                    <p><strong>Peak:</strong> October 21-22</p>
+                    <p>Active from October 2 to November 7</p>
+                </div>
+                <div class="card">
+                    <h3>Leonids</h3>
+                    <p><strong>Peak:</strong> November 16-17</p>
+                    <p>Active from November 6 to November 30</p>
+                </div>
+                <div class="card">
+                    <h3>Geminids</h3>
+                    <p><strong>Peak:</strong> December 13-14</p>
+                    <p>Active from December 4 to December 17</p>
+                </div>
             </div>
+            <p>Check the full calendar on the <a href="https://www.imo.net/calendar/" target="_blank">International Meteor Organization</a>.</p>
+        </section>
+
+        <section id="how-to" class="section">
+            <h2>How to Watch Meteor Showers</h2>
+            <ul class="how-to-list">
+                <li>Find a dark spot away from city lights.</li>
+                <li>Allow your eyes to adjust to the dark for about 20 minutes.</li>
+                <li>Use a blanket or a reclining chair to get comfortable while looking at the sky.</li>
+                <li>Dress warmly, especially during colder months.</li>
+                <li>Check the weather forecast to ensure clear skies.</li>
+            </ul>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Meteor Shower Gallery</h2>
+            <div class="gallery">
+                <img src="meteor1.jpg" alt="Meteor shower" class="gallery-img">
+                <img src="meteor2.jpg" alt="Meteor shower" class="gallery-img">
+                <img src="meteor3.jpg" alt="Meteor shower" class="gallery-img">
+            </div>
+        </section>
+
+        <section id="data" class="section">
+            <h2>Get Meteor Data</h2>
+            <p>Stay informed with real-time data and reports from the <a href="https://www.imo.net/" target="_blank">International Meteor Organization</a>.</p>
         </section>
     </main>
 
     <footer>
-        <p>Part of the <a href="https://nasa.gov">NASA Hackathon Project</a> | Data from the <a href="https://www.imo.net/">International Meteor Organization</a></p>
+        <p>Part of the <a href="https://nasa.gov" target="_blank">NASA Hackathon Project</a> | Data from the <a href="https://www.imo.net/" target="_blank">International Meteor Organization</a></p>
     </footer>
 </body>
 </html>
